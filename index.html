@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daltonismo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.png">
+    <style>
+        /* Estilos para a palavra "Daltonismo" no canto esquerdo */
+        .daltonismo-title {
+            position: absolute;
+            top: 30px;
+            left: 80px;
+            font-size: 60px;
+             color: #8bcbff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <!-- Adicionando a classe "daltonismo-title" à palavra "Daltonismo" -->
+    <div class="daltonismo-title">Daltonismo</div>
+    <header>
+        
+        <img src="icon.png" alt="Descrição da imagem">
+        <div class="filter-section">
+            <label for="color-filter">Filtro de Daltonismo:</label>
+            <select id="color-filter">
+                <option value="default">Cores padrão</option>
+                <option value="achromatomaly">Acromatopsia</option>
+                <option value="deuteranomaly">Deuteranomalia</option>
+                <option value="tritanomaly">Tritanomalia</option>
+            </select>
+        </div>
+    </header>
+    <main class="main1">
+        <div class="information-section">
+            <h2>O que é Daltonismo?</h2>
+            <p>O daltonismo, também conhecido como discromatopsia, é uma condição genética que afeta a percepção das cores. Pessoas com daltonismo podem ter dificuldade em distinguir certas cores, como vermelho e verde, azul e amarelo, ou todas as cores.</p>
+            <p>Embora não haja cura para o daltonismo, os afetados podem aprender a lidar com a condição e viver uma vida normal.</p>
+        </div>
+        <div class="image-container">
+            <img src="dalton.png" alt="Imagem sobre Daltonismo" class="daltonism-image">
+        </div><br>
+        <br>
+        <br> <br>
+        <center><h1 class="exemplos">Alguns exemplos: </h1></center>
+        <div class="image-container">
+            <div class="image-item">
+                <h3 class="nomes">Acromatopsia</h3>
+                <img src="acro.png" alt="Descrição da imagem 1" class="filter-image" width="400">
+                <p>A acromatopsia é uma condição visual rara em que a pessoa não consegue perceber nenhuma cor, vendo apenas em tons de cinza.</p>
+                <br><br><br><br><a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/daltonismo/"><button class="styled-button">Saiba Mais</button></a>
+            </div>
+            <div class="image-item">
+                <h3 class="nomes">Deuteranomalia</h3>
+                <img src="deu.png" alt="Descrição da imagem 2" class="filter-image" width="500">
+                <p>A deuteranomalia é um tipo de daltonismo em que a pessoa tem dificuldade em distinguir entre tons de verde e vermelho devido à anomalia nos cones sensíveis ao verde na retina.</p>
+              <br>  <br><br><a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/daltonismo/"><button class="styled-button">Saiba Mais</button></a>
+            </div>
+            <div class="image-item">
+                <h3 class="nomes">Tritanomalia</h3>
+                <img src="tri.png" alt="Descrição da imagem 3" class="filter-image" width="500">
+                <p>A tritanomalia é um tipo de daltonismo em que a pessoa tem dificuldade em distinguir entre tons de azul e verde, além de confundir o amarelo com tons de rosa, devido à anomalia nos cones sensíveis ao azul na retina.</p>
+               <br> <a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/daltonismo/"><button class="styled-button">Saiba Mais</button></a>
+            </div>
+        </div>
+        <center><p class="referencias">Referências: <a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/daltonismo/">Daltonismo - Dráuzio Varella</a></p></center>
+    </main>
+    <footer>
+        Desenvolvido por Kauane Vieira
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
